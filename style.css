@@ -1,0 +1,198 @@
+.header
+{
+    background-color: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(4px);
+    font-family: "Quicksand", sans-serif;
+    font-weight: 620;
+    font-style: normal;
+    /* margin-bottom: 25vh; */
+}
+#dix2
+{
+    margin: auto;
+    margin-top: 1rem;
+}
+body
+{
+    background: rgb(34,193,195);
+    background: -moz-linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+    background: -webkit-linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#22c1c3",endColorstr="#fdbb2d",GradientType=1);
+}
+.navbar
+{
+    display: grid;
+    justify-content: center;
+}
+.white
+{
+    color: white;
+}
+#headerr
+{
+    font-size: 1.8rem;
+}
+.summercollections
+{
+    font-size: 1.5rem;
+    text-align: center;
+    font-family: "Quicksand", sans-serif;
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.6);
+    width: max-content;
+    width: fit-content;
+    padding: 10px;
+    backdrop-filter: blur(5px);
+    border-radius: 20px;
+    margin-top: 4.5rem;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+.summer-text
+{
+    margin: 7px;
+}
+.container1
+{
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 67rem;
+    margin: auto;
+    margin-top: 0.55rem;
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.container2
+{
+    background-color: rgba(0, 0, 0, 0.6);
+    width: fit-content;
+    margin: auto;
+    margin-top: 0.55rem;
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.pro
+{
+    background-color: rgba(255, 255, 255, 0.3);
+    max-width: fit-content;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 20px;
+    height:fit-content;
+}
+.pro2
+{
+    background-color: rgba(255, 255, 255, 0.3);
+    max-width: fit-content;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 20px;
+    height: fit-content;
+}
+#img001
+{
+    margin: auto;
+    max-height: 17rem;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    aspect-ratio: 9/16;
+    object-fit: cover;
+    transition: ease-in-out,0.5s;
+}
+#img001:hover
+{
+    transform: scale(1.15);
+    transform-style: preserve-3d;
+}
+#img002
+{
+    margin: auto;
+    max-height: 17rem;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    aspect-ratio: 9/16;
+    object-fit: cover;
+    transition: ease-in-out,0.5s;
+}
+#img002:hover
+{
+    transform: scale(1.15);
+    transform-style: preserve-3d;
+}
+.Text
+{
+    font-family: "Quicksand", sans-serif;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    color: white;
+}
+.button
+{
+    font-family: "Quicksand", sans-serif;
+    color: rgb(0, 0, 0);
+    backdrop-filter: blur(10px);
+    width: 100%;
+    margin: 4px;
+    border-radius: 10px;
+    font-size: 15px;
+    padding: 5px;
+    background-color:rgba(161, 161, 161, 0.849);
+    transition: ease,0.5s;
+    border: none;
+}
+.button:hover
+{
+    background-color: aquamarine;
+}
+.buy:hover
+{
+    background-color: #ffd151;
+}
+
+@media (max-width: 768px)
+{
+    .container1
+    {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        width: 90vw;
+        display: grid;
+        /* grid-template-columns: 1fr 1fr;  */
+    }
+    .pro
+    {
+        margin: 0.5rem;
+        width: 80vmin;
+        max-width: 80vmin;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .container2
+    {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        width: 90vw;
+        display: grid;
+        /* grid-template-columns: 1fr 1fr;  */
+    }
+    .pro2
+    {
+        margin: 0.5rem;
+        width: 80vmin;
+        max-width: 80vmin;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+}
